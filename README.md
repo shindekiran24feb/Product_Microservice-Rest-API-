@@ -9,17 +9,13 @@ Project :- Backend Product Microservice (Rest API) using java Spring Boot
 •	Open Postman software. And create Collection(Seller & Customer)
  
  Seller Domain :-
-POST	http://localhost:8999/seller/	Add Product
-PUT	http://localhost:8999/seller/{Enter ID}
-Update Product
-GET	http://localhost:8999/seller/{enter ID}
-Get Product by ID
-GET	http://localhost:8999/seller/	Get All Product
-DEL	http://localhost:8999/seller/{Enter ID}
-Delete Product by ID
+POST	http://localhost:8999/seller/	          Add Product
+PUT	http://localhost:8999/seller/{Enter ID}  Update Product
+GET	http://localhost:8999/seller/{enter ID}  Get Product by ID
+GET	http://localhost:8999/seller/	           Get All Product
+DEL	http://localhost:8999/seller/{Enter ID}  Delete Product by ID
 
 Customer Domain :-
-GET	http://localhost:8999/customer/search?query= {Enter Keyword}
-Search Product by Keyword
+GET	http://localhost:8999/customer/search?query= {Enter Keyword}     Search Product by Keyword
 
 Note:- Enter ID Like http://localhost:8999/seller/12 
